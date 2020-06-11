@@ -1,0 +1,18 @@
+﻿@{
+    ViewData["Title"] = "Home Page";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome</h1>
+    <p>Learn about <a href="https://docs.microsoft.com/aspnet/core">building Web apps with ASP.NET Core</a>.</p>
+</div>
+
+<h3>Random passcode # @ViewBag.Num</h3>
+<h2> @ViewBag.Code</h2>
+
+<form action="/" method="post">
+    <input type="submit" value="Generate" name="" id="">
+</form>
+<form action="/" method="get">
+    <input type="submit" value="Reset" name="" id="">
+</form>
